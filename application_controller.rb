@@ -7,7 +7,12 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-
+ get '/brands.erb' do
+    erb :brands
+  end
+ get '/face.erb' do
+    erb :face
+  end
 
 
 
